@@ -35,3 +35,18 @@ footer dd {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  margin: 0;
+background-image: url('docs\img\Open-pantry-shelves-with-canned-goods-and-spices.webp');
+  background-size: cover; /* Faz a imagem preencher o fundo */
+  background-attachment: fixed; /* Deixa o background fixo */
+  background-position: center; /* Centraliza a imagem */
+}
+
+.content {
+  height: 200vh; /* Aumenta a altura para criar espaço de rolagem */
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente para melhorar a legibilidade */
+}
