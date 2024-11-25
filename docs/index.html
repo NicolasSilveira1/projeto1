@@ -5,7 +5,19 @@
     <link rel="stylesheet" href="css\style.css" />
   </head>
     <body style="background-image: url('img/Open-pantry-shelves-with-canned-goods-and-spices.webp');">
-
+    
+        <div class="container">
+            <h1>Bem-vindo ao Sistema</h1>
+            <button onclick="goToPage('login.html')">Login</button>
+            <button onclick="goToPage('register.html')">Cadastro</button>
+        </div>
+    
+        <script>
+            function goToPage(page) {
+                window.location.href = page; // Redireciona para a página passada como argumento
+            }
+        </script>
+    
   
     </body>
     <header>
